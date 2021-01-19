@@ -1,0 +1,19 @@
+Cole Anderson
+Xiaoran, Tanner, Austin (Group 2)
+Project Revision Memo
+12/5/19
+
+
+Current State: 
+
+The modules used in the project are mostly for data processing and mapping. CSV was useful for reading the NHGIS files for renaming, while Ordered Dict helps make sure the new labels are placed on the correct columns. Pandas is used to merge all of the data sheets from NHGIS to the CBP sheets after the former are renamed and the latter cut down to only include ZIPS with the correct industry. The joining to the shapefiles of each ZCTA was accomplished via Geopandas, which has proved the most useful to this project and is by far the module I have read the most documentation on. Matplotlib was used to create the correlation measures and data maps. So far as functions, the two created are to better automate the long process of Joining all the files. Most have to have rows dropped, joined by columns with different headers but same values, or joined multiple times. The other functions have been cleaned to fit the purposes of this project; renaming the data sheets via their codebook files. I do not have any classes created for this project. It was my intent to try to do so, but I had a severe trouble with that in class, and decided to focus on making the code work first, before incorporating into a class. The error catching needs to be improved. I need to put error catches in place for the wrong kind of files, and in cases where part of the data is missing. The last stage of calculating correlations and creating maps to show concentration/density is complete, but I would like to create a wider variety of numerics.
+
+Suggested Revisions and Improvements: 
+
+Austin suggested keeping the data for all ZIPS to preserve all neighbooring properties of the Moran's test (this protocol is now in place as of 12/1). I also learned what the Moran's test was, and this was suggested. It was suggested to break the data for each demography and business pattern into deciles, compare, and then run a cluster analysis on each to look for overlaps.
+
+Proposed Changes and Integration:
+
+I would like to add a Moran's or cluster test calculation, as I now better understand what they are used for. I need to add a few error catches to better streamline problems and testing. I want to overlay the map layers as Austin suggested, but I am not sure I will have time to break the data into deciles for testing. The commenting and doc strings need to be severely improved before final submission. I have decided Pysal will have to be learned in a future project. 
+
+

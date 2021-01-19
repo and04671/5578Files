@@ -1,0 +1,26 @@
+Pixel_value: Label
+1: Tree cover, broadleaved evergreen, closed to open (>15%)
+2: Tree Cover, broadleaved deciduous, closed (>40%)
+3: Tree cover, broadleaved deciduous, open (15-40%)
+4: Tree cover, needleleaved evergreen,  closed to open (>15%)
+5: Tree cover, needleleaved decidous, closed to open (>15%)
+6: Tree cover, mixed leaftype,  closed to open (>15%)
+7: Tree cover, closed to open (>15%), regularly flooded, fresh or brackish water: Swamp Forests
+
+8: Tree cover, closed to open (>15%),  regularly flooded, saline water: Mangrove Forests
+9: Mosaic of tree cover and other natural vegetation ( crop component possible)
+11: Shrubcover, closed to open (>15%) , evergreen(broadleaved or needleleaved)
+12: Shrubcover, closed to open (>15%), deciduous (broadleaved)
+13: Herbaceous cover, closed to open (>15%)
+15: Regularly flooded ( > 2 month) Shrub or Herbaceous cover, closed to open
+
+
+16: Cropland (upland crops or inundated/ flooded crops as e.g. rice)
+17: Mosaic of Cropland / Tree cover/ Other Natural Vegetation
+19: Bare Areas
+20: Water Bodies (natural or artificial)
+21: Snow or Ice (natural or artificial)
+22: Urban Areas
+10: Tree Cover, burnt (mainly boreal forests)
+14: Sparse Herbaceous or sparse Shrub cover
+18: Mosaic of Cropland / Shrub or Herbaceous cover

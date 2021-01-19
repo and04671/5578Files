@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xml:lang="en"><Esri><CreaDate>20191001</CreaDate><CreaTime>20422300</CreaTime><ArcGISFormat>1.0</ArcGISFormat><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="c:\users\cole\appdata\local\programs\arcgis\pro\Resources\ArcToolbox\toolboxes\Conversion Tools.tbx\ASCIIToRaster" Date="20191001" Time="204223">ASCIIToRaster C:\Users\Cole\Documents\GitHub\lab2-and04671\asc_files\mn.asc C:\Users\Cole\Documents\GitHub\lab2-and04671\TIFF_files\mn.tif Integer</Process></lineage></DataProperties></Esri></metadata>

@@ -1,0 +1,2 @@
+us_counties.* filter=lfs diff=lfs merge=lfs -text
+us_states.* filter=lfs diff=lfs merge=lfs -text
